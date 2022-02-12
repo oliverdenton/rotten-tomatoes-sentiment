@@ -6,10 +6,15 @@ challenging.
 
 The training, dev and test set contain respectively 7529, 1000 and 3310 sentences. The sentences
 are labelled on a scale of five values:
+
   0. negative
   1. somewhat negative
   2. neutral
   3. somewhat positive
   4. positive
 
-Two different models can be trained. One for the 5-value set of labels above, another will map these sentiment values onto a 3-value scale. To switch between models, simply change line
+Two different models can be trained. One for the 5-value set of labels above, another will map these sentiment values onto a 3-value scale. To switch between models, simply change line 9:
+
+```
+NUM_SENTIMENTS = 3 # change no. of classes here
+```

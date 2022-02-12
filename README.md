@@ -1,7 +1,8 @@
 # rotten-tomatoes-sentiment
-The aim of this project is to implement a machine learning model based on Naive Bayes from scratch for a sentiment analysis task using the Rotten Tomatoes movie review dataset. Obstacles like sentence negation, sarcasm, terseness, language ambiguity, and many others make this task very challenging.
+The aim of this project is to implement a machine learning model based on Naive Bayes from scratch for a sentiment analysis task using the Rotten Tomatoes movie review dataset. Obstacles like sentence negation, sarcasm, terseness, language ambiguity, and many others make this task very challenging. No already implemented classes/functions were used (e.g. scikit-learn).
 
 The training, dev and test set contain respectively 7529, 1000 and 3310 sentences. The sentences are labelled on a scale of five values:
+
   0. negative
   1. somewhat negative
   2. neutral
@@ -22,5 +23,9 @@ FEATURE_EXTRACTION = False # turn feature extraction ON/OFF
 
 ### Results
 3-value scale - Accuracy: 64.5%   Macro-F1: 0.52
+
 5-value scale - Accuracy: 40.4%   Macro-F1: 0.34
+
 Confusion matrices showing the performence of each model can be found in the figures folder.
+
+
